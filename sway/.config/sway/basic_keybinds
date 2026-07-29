@@ -16,7 +16,7 @@ bindsym $mod+d exec $menu
 
 # take screenshot.
 bindsym $mod+s exec $config_path/screenshot.sh
-bindsym print exec grimshot --notify save area /tmp/grimshot-$(date +%Y%m%dT%H%M).jpg
+bindsym print exec grimshot --notify copy area
 
 # change normal to inverse to use left mouse button for resizing and
 # right mouse button for dragging.
