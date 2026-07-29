@@ -16,4 +16,6 @@ include $config_path/audio_brightness_keybinds
 
 #font pango:MesloLGS Nerd Font 16
 font pango:Iosevka Nerd Font Propo 16
-#output eDP-1 scale 1.25
+
+#workspace 1 output HDMI-A-1
+#workspace 2 output eDP-1
