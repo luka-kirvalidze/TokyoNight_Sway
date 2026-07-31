@@ -3,7 +3,9 @@
 # exec pipewire-pulse
 
 #output * bg $HOME/dotfiles/wallpapers/a_man_sitting_in_a_chair.png fill
-exec swaybg -i ~/dotfiles/wallpapers/matrix_original.png -m fill
+#exec swaybg -i ~/dotfiles/wallpapers/matrix_original.png -m fill
+
+exec swaybg -i ~/dotfiles/wallpapers/tron_original.png -m fill
 
 # these auto-starts are needed for screen-sharing.
 exec --no-startup-id dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway
