@@ -13,6 +13,7 @@ bindsym $mod+q kill
 
 # start your launcher.
 bindsym $mod+d exec $menu
+bindsym $mod+shift+Q exec $powermenu
 
 # take screenshot.
 bindsym $mod+s exec $config_path/screenshot.sh
@@ -30,10 +31,6 @@ bindsym $mod+m exec swaymsg exit
 
 # firefox
 bindsym $mod+b exec $browser
-
-# shutdown menu
-bindsym $mod+shift+q exec ~/.config/wofi/wofi_powermenu.sh
-
 
 bindsym $mod+ exec swaync-client -t -sw
 bindsym $mod+shift+b exec blueman-manager

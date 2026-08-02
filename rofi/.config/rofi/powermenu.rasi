@@ -10,7 +10,7 @@
     hv: #9274ca; 
     primary: #C5C8C6; 
     ug: #0B2447;
-    font: "Monospace 12";
+    font: "Monospace 16";
     background-color: @bg;
     //dark: @bg;
     border: 0px;
@@ -23,7 +23,7 @@
 // defines different aspects of the window
 window {
     width: 700;
-    //height: 500;
+    height: 250;
 
     orientation: horizontal;
     location: center;

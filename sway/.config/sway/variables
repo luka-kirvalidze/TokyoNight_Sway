@@ -18,5 +18,9 @@ set $term alacritty
 
 # your preferred application launcher.
 set $menu rofi -show drun
-#set $browser firefox
+
+# set $browser firefox
 set $browser helium
+
+# powermenu script
+set $powermenu "sh -c '~/dotfiles/rofi/.config/rofi/powermenu.sh'"
