@@ -24,3 +24,6 @@ set $browser helium
 
 # powermenu script
 set $powermenu "sh -c '~/dotfiles/rofi/.config/rofi/powermenu.sh'"
+
+# wallpaper menu script
+set $wallmenu "sh -c '~/dotfiles/rofi/.config/rofi/wallmenu.sh'"
