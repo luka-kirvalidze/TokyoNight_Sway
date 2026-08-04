@@ -71,7 +71,7 @@
     "disk": {
         "interval": 60,
         "path": "/",
-        "format": "Disk: {free}",
+        "format": "Disk: {free}"
     },
     "battery": {
         "states": {
@@ -82,11 +82,14 @@
         "format": "Bat: {capacity}%",
         "format-plugged": "{capacity}% plg",
         "format-alt": "Bat {capacity}%",
-        "format-time": "{H}:{M}",
+        "format-time": "{H}:{M}"
     },
     "network": {
-        "format": "Online",
-        "format-disconnected": "Disconnected ⚠"
+	"format": "Disconnected",
+        "format-wifi": "WiFi: {essid} ({signalStrength}%)",
+	"format-ethernet": "Eth: {ipaddr}/{cidr}",
+        "format-disconnected": "Disconnected",
+	"interval": 1
     },
     "custom/sep": {
         "format" : "|",
