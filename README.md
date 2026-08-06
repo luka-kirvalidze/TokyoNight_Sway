@@ -1,5 +1,5 @@
-# TokyoNight_Sway
-minimal dotfiles for sway with tokyonight theme!
+# Sway_Dotfiles
+- Minimal dotfiles for sway with tokyonight and nordic themes!
 
 # Structure of the dotfiles
 - "common" directory is used to store configs that are shared by both, nordic and tokyonight themes. some of the css configs are later defined in"nordic" or "tokyonight" directories (you can explore directories by yourself for better understanding).
