@@ -17,6 +17,8 @@ bindsym $mod+d exec $menu
 bindsym $mod+shift+Q exec $powermenu
 # start wallpaper menu
 bindsym $mod+shift+W exec $wallmenu
+# start theme switcher menu
+bindsym $mod+shift+T exec $thememenu
 
 # take screenshot.
 bindsym print exec grimshot --notify copy area

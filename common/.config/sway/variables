@@ -27,3 +27,8 @@ set $powermenu "sh -c '~/dotfiles/common/.config/rofi/powermenu.sh'"
 
 # wallpaper menu script
 set $wallmenu "sh -c '~/dotfiles/common/.config/rofi/wallmenu.sh'"
+
+# theme switcher menu script
+set $thememenu "sh -c '~/dotfiles/common/.config/rofi/thememenu.sh'"
+
+
