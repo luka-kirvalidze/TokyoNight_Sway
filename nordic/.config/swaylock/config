@@ -1,0 +1,43 @@
+# General
+ignore-empty-password
+show-failed-attempts
+daemon
+
+# Font & Indicator
+font="Inter"
+font-size=24
+indicator-radius=120
+indicator-thickness=10
+
+# Color Palette (Nordic Hex RRGGBBAA)
+# Nord0: 2e3440 | Nord1: 3b4252 | Nord3: 4c566a
+# Nord6: eceff4 | Nord8: 88c0d0 | Nord11: bf616a | Nord14: a3be8c
+
+# Background
+color=2e3440
+
+# Normal state (Idle)
+inside-color=2e3440e6
+ring-color=88c0d0
+line-color=00000000
+separator-color=00000000
+text-color=eceff4
+
+# Typing state
+key-hl-color=a3be8c
+bs-hl-color=bf616a
+
+# Verifying state (Checking password)
+inside-ver-color=3b4252e6
+ring-ver-color=81a1c1
+text-ver-color=eceff4
+
+# Wrong password state
+inside-wrong-color=bf616ae6
+ring-wrong-color=bf616a
+text-wrong-color=eceff4
+
+# Clear input state
+inside-clear-color=d08770e6
+ring-clear-color=d08770
+text-clear-color=eceff4

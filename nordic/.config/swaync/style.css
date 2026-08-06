@@ -1,0 +1,98 @@
+/* Nordic Color Palette
+   Nord0: #2e3440 | Nord1: #3b4252 | Nord2: #434c5e | Nord3: #4c566a
+   Nord4: #d8dee9 | Nord6: #eceff4 | Nord8: #88c0d0 | Nord11: #bf616a
+*/
+
+* {
+  font-family: "Inter", "JetBrainsMono Nerd Font", sans-serif;
+  font-size: 14px;
+}
+
+/* Control Center Window */
+.control-center {
+  background: rgba(46, 52, 64, 0.95); /* Nord0 */
+  border: 2px solid #88c0d0;           /* Nord8 cyan highlight */
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 12px;
+  color: #eceff4;                      /* Nord6 */
+}
+
+/* Notifications Container */
+.notification-row {
+  outline: none;
+  margin: 6px;
+}
+
+.notification {
+  background: #3b4252;                 /* Nord1 */
+  border-radius: 8px;
+  border: 1px solid #4c566a;           /* Nord3 */
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.notification-content {
+  background: transparent;
+  color: #eceff4;
+}
+
+/* Notification Headers & Body */
+.summary {
+  font-weight: bold;
+  color: #88c0d0;                      /* Nord8 */
+}
+
+.body {
+  color: #d8dee9;                      /* Nord4 */
+}
+
+/* Close Button */
+.close-button {
+  background: #bf616a;                 /* Nord11 Red */
+  color: #2e3440;
+  border-radius: 50%;
+  margin: 4px;
+  padding: 2px;
+}
+
+.close-button:hover {
+  background: #e5e9f0;
+}
+
+/* Widget: Control Center Header & Buttons */
+.widget-title {
+  color: #88c0d0;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 8px;
+}
+
+.widget-title > button {
+  background: #434c5e;                /* Nord2 */
+  color: #eceff4;
+  border: none;
+  border-radius: 6px;
+  padding: 4px 8px;
+}
+
+.widget-title > button:hover {
+  background: #4c566a;
+}
+
+/* Widget: Do Not Disturb */
+.widget-dnd {
+  background: #3b4252;
+  border-radius: 8px;
+  padding: 8px;
+  margin: 8px 0;
+}
+
+.widget-dnd > switch {
+  background: #4c566a;
+  border-radius: 12px;
+}
+
+.widget-dnd > switch:checked {
+  background: #88c0d0;
+}

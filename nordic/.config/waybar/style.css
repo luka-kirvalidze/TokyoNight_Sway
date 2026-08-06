@@ -1,0 +1,90 @@
+@import "colors.css";
+
+* {
+    font-family: "Iosevka Nerd Font Propo";
+    font-size: 16px;
+    font-weight: Bold;
+}
+
+window#waybar {
+    background-color: @bg;
+    color: @fg;
+}
+
+#workspaces button {
+    padding: 0 6px;
+    color: @white;
+    background: transparent;
+}
+
+#workspaces button.populated,
+#workspaces button:not(.empty) {
+    color: @blu;                  
+    background-color: transparent;
+}
+
+#workspaces button.focused,
+#workspaces button.active {
+    color: @cyn;
+    background-color: @blk;
+    border-radius: 0px;
+}
+
+#workspaces button:hover {
+    color: @cyn;
+    border-radius: 0px;
+}
+
+#workspaces button.urgent {
+    background-color: @red;
+}
+
+#clock,
+#custom-sep,
+#battery,
+#cpu,
+#memory,
+#disk,
+#network,
+#tray {
+    padding: 0 8px;
+    padding-bottom: 0px;
+    color: @cyn;
+}
+
+#custom-sep {
+    color: @brblk;
+}
+
+#clock {
+    color: @cyn;
+}
+
+#battery {
+    color: @mag;
+}
+
+#disk {
+    color: @ylw;
+}
+
+#memory {
+    color: @mag;
+}
+
+#cpu {
+    color: @grn;
+}
+
+#network {
+    color: @blu;
+}
+
+#network.disconnected {
+    background-color: @red;
+}
+
+#tray {
+    background-color: #2980b9;
+}
+

@@ -1,0 +1,20 @@
+[general]
+import = ["~/.config/alacritty/colors.toml"]
+
+[window]
+opacity=0.9
+
+[window.padding]
+y = 12 
+x = 12 
+
+[font]
+# normal = { family = "JetBrainsMono Nerd Font Propo", style = "Regular" }
+normal = { family = "Iosevka Nerd Font Propo", style = "Regular" }
+size = 20
+
+[keyboard]
+bindings = [
+{ key="ArrowUp", mods="Control|Shift", action="ScrollLineUp" },
+{ key="ArrowDown", mods="Control|Shift", action="ScrollLineDown" }
+]
